@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+form {
+  position: relative;
+  text-align: center;
+}
+input {
+  background-image: url(mic.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid lightgray;
+}
+button {
+  font-weight: bold;
+  color: #757575;
+  display: inline-block;
+  margin: 1.5em .2em 1em .2em;
+  border-style: none;
+  background-color: #F0F0F0;
+  border-radius: 5%;
+  padding: .8em;
+}
+button:hover {
+  box-sizing: border-box;
+  color: black;
+  border: 1px solid #757575;
+}
+.googleImg {
+  margin: 8% auto 2% auto;
+}
+.search {
+  margin: 0 auto 0 auto;
+  padding: 1em;
+}
